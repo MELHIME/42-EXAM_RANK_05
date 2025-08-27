@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main()
-{
+{ 
 	const bigint a(42);
 	bigint b(21), c, d(1337), e(d);
 

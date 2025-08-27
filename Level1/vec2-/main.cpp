@@ -19,7 +19,7 @@ int main()
 	std::cout << ++v4 << std::endl;	// 3,4
 	std::cout << v4-- << std::endl;	// 2,3
 	std::cout << --v4 << std::endl;	// 1,2
-
+ 
 	v2+=v3;				// 2,4
 	v1-=v2;				// -2,-4
 	v2 = v3 + v3 * 2;	// 3,6

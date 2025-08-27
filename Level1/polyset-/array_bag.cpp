@@ -9,7 +9,7 @@ array_bag::array_bag(const array_bag &oth) {
 		this->data[i] = oth.data[i];
 	this->size = oth.size;
 }
-
+ 
 array_bag &array_bag::operator=(const array_bag &oth) {
 	this->clear();
 	this->data = new int[oth.size];

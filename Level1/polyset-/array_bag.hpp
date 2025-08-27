@@ -6,7 +6,7 @@ class array_bag : virtual public bag {
 protected:
   int *data;
   int size;
-
+ 
 public:
   array_bag();
   array_bag(const array_bag &);

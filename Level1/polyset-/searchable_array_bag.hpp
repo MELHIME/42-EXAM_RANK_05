@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #pragma once
-
+ 
 #include "searchable_bag.hpp"
 #include "array_bag.hpp"
 

@@ -6,13 +6,13 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/27 17:22:46 by mel-hime          #+#    #+#             */
-/*   Updated: 2025/08/27 17:22:52 by mel-hime         ###   ########.fr       */
+/*   Updated: 2025/08/27 19:29:18 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-
+ 
 typedef struct  s_map_info
 {
     int rows;

@@ -16,7 +16,7 @@ tree_bag &tree_bag::operator=(const tree_bag &oth) {
 	this->tree = copy_node(oth.tree);
 	return *this;
 }
-
+ 
 tree_bag::node *tree_bag::extract_tree() {
 	node *ret = this->tree;
 	this->tree = 0;

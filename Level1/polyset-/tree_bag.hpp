@@ -16,7 +16,7 @@ public:
   tree_bag(const tree_bag &);
   tree_bag  &operator=(const tree_bag &);
   ~tree_bag();
-
+ 
   node *extract_tree();
   void set_tree(node *);
 

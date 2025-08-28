@@ -6,7 +6,7 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/27 17:24:14 by mel-hime          #+#    #+#             */
-/*   Updated: 2025/08/27 19:28:21 by mel-hime         ###   ########.fr       */
+/*   Updated: 2025/08/28 10:49:55 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -203,6 +203,13 @@ class bigint{
         }
         return *this;
     }
+    
+    friend std::ostream& operator<<(std::ostream& COUT, const bigint& bg)
+    {
+        for (size_t i = 0; i < bg.numbers.size(); i++)
+            COUT << bg.numbers[i] ;
+        return COUT;
+    }
 
 private :
     bigint add (const bigint& other) const
@@ -237,10 +244,4 @@ private :
         return larger;
     }
 
-    friend std::ostream& operator<<(std::ostream& COUT, const bigint& bg)
-    {
-        for (size_t i = 0; i < bg.numbers.size(); i++)
-            COUT << bg.numbers[i] ;
-        return COUT;
-    }
 };

@@ -18,9 +18,9 @@
 int main(int ac, char **av)
 {
 	if (ac != 4)
-		return write(1, "error!\n", 7), 1;
-	int width = atoi(av[1]);
+		return 1;
 	int height = atoi(av[2]);
+	int width = atoi(av[1]);
 	int iterations = atoi(av[3]);
 
 	int arr[2][height + 2][width + 2];

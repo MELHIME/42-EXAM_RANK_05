@@ -6,7 +6,7 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/27 17:23:22 by mel-hime          #+#    #+#             */
-/*   Updated: 2025/08/27 19:29:07 by mel-hime         ###   ########.fr       */
+/*   Updated: 2025/08/28 11:01:15 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -132,7 +132,7 @@ class vect2{
             return vect2(v.x * n, v.y * n);
          }
 
-         vect2 operator-()
+         vect2 operator-() const
          {
             return vect2(-x, -y);
          }
